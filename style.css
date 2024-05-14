@@ -3,22 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
-    /* background-color: rgb(2, 2, 30); */
 }
 header{
-    height: 120px;
-    width: 100%;
-    background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        background-color: rgb(0, 0, 22);
+        box-shadow: 0 2px 4px 0 #1de2d1;
 }
-header nav{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 2000;
-    box-shadow: 0 2px 4px 0 #1de2d1;
-}
-nav .navbar{
+
+.navbar{
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -54,10 +50,11 @@ nav .navbar{
 
 /* BODY */
 main{
-    height: 500px;
+    height: 1500px;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 27, 0.97);
 }
+
 .content{
     position: absolute;
     top: 37%;
@@ -89,7 +86,7 @@ main{
         width: 0ch;
     }
     50%{
-        width: 15ch;
+        width: 13ch;
     }
     100%{
         width: 0ch;
@@ -124,8 +121,45 @@ main .girl img{
     box-shadow: 5px 5px 5px 5px #1de2d1;
 }
 
+/* ABOUT */
+.about{
+    height: 550px;
+    position: relative;
+    top: 680px;
+    color: white;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.introduction{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.name{
+    color: #1de2d1;
+    font-size: 2.3rem;
+}
+p{
+    margin-top: 30px;
+}
+
+/* Skills */
+/* .skills{
+    display: flex;
+}
+
+.box1{
+    height: 100px;
+    width:30%;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+} */
+
 /* FOOTER */
-footer{
+/* footer{
     height: 110px;
     width: 100%;
     display: flex;
@@ -142,6 +176,6 @@ footer{
     border-radius: 50%;
     padding: 1rem;
     background-color:#1de2d1;
-}
+} */
 
 
